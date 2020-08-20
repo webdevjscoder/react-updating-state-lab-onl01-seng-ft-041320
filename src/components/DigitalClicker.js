@@ -16,7 +16,7 @@ export default class DigitalClicker extends Component {
       }
     })
   }
-  
+
   render() {
     return (
       <label for="timesClicked">{this.state.timesClicked}</label>
